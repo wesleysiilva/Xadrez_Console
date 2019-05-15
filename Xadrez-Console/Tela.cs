@@ -10,7 +10,6 @@ namespace Xadrez_Console {
 
             for (int j = 0; j < tab.colunas; j++) {
                imprimirPeca(tab.peca(i, j));
-               Console.Write(' ');
             }
             Console.WriteLine();
          }
@@ -62,7 +61,7 @@ namespace Xadrez_Console {
                Console.Write(peca);
                Console.ForegroundColor = aux;
             }
-            Console.Write(' ');
+            Console.Write(" ");
          }
       }
    }
